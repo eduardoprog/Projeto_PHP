@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Página Inicial</title>	
+		<title>História</title>	
 		<style type="text/css">
 			header {
 			  position: relative;
@@ -77,7 +77,7 @@
 	  <div class="container h-100">
 	    <div class="d-flex h-100 text-center align-items-center">
 	      <div class="w-100 text-white">
-	        <h1 class="display-3">Ver. Ser. Conquistar.</h1>
+	        <h1 class="display-3">A 15 anos reacendendo memórias nostálgicas.</h1>
 	        <p class="lead mb-0">#IssoéGamer</p>
 	      </div>
 	    </div>

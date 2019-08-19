@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md sticky-top navbar-dark" style="background-image: url(http://s4.thingpic.com/images/Xf/TrCtYh1zKfphdFXzWZZ2E8zU.jpeg);">
-  <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-md sticky-top navbar-dark" style="background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/526920/7d3c2adfab2fa148b7b657e6af4a54413b71ab72.jpg); transition: top 0.5s;" id="navbar">
+  <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -24,7 +24,7 @@
       </li>
       <div class="btn-group" role="group" aria-label="Basic example">
         <a href="login.php"><button type="button" class="btn btn-primary">Login</button></a>
-        <button type="button" class="btn btn-secondary">Registrar</button>
+        <a href="register.php"><button type="button" class="btn btn-secondary">Registrar</button></a>
       </div>
     </ul>
   </div>

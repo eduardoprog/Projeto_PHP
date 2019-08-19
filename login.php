@@ -226,6 +226,9 @@
 		</style>
 	</head>
 	<body>
+		<?php  
+		include("navbar.php");
+		?>
 		<div class="wrapper fadeInDown">
 			<div id="formContent">
 				<!-- Tabs Titles -->
@@ -241,9 +244,13 @@
 				</form>
 				<!-- Remind Passowrd -->
 				<div id="formFooter">
+					<a class="underlineHover" href="register.php">Ainda não é cadastrado?</a><br>
 					<a class="underlineHover" href="#">Esqueceu sua senha?</a>
 				</div>
 			</div>
 		</div>
+		<?php  
+		include("rodape_alt.php");
+		?>
 	</body>
 </html>
