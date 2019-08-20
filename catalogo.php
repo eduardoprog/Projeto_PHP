@@ -2,15 +2,27 @@
 include("cabecalho_catalogo.php");
 include("navbar.php");
  ?>
-	<body style="background-image: url(https://i.pinimg.com/originals/37/32/9d/37329d3c14684b03701b11de0c07a085.jpg););">
+ 	<style type="text/css">
+ 		p a{
+ 			text-decoration: none;
+ 			color: white;
+ 		}
+ 		p a:hover{
+ 			text-decoration: none;
+ 			color: red;
+ 			transition: 0.2s;
+ 		}
+ 	</style>
+	<body style="background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/526920/7d3c2adfab2fa148b7b657e6af4a54413b71ab72.jpg););">
+		<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-primary">Voltar ao topo</button>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
 				<center>
 					<h3>SUMÁRIO DE PRODUTOS</h3>
 					<br>
-					<p class="link"><a href="#jogos">JOGOS</p></a>
-					<p><a  href="#consoles">CONSOLES</p></a>
+					<p><a href="#jogos">JOGOS</p></a>
+					<p><a href="#consoles">CONSOLES</p></a>
 					<p><a href="#acessorios">ACESSÓRIOS</p></a>
 					<p><a href="#canecas_copos">CANECAS E COPOS</p></a>
 					<p><a href="#decor">DECORAÇÃO</p></a>

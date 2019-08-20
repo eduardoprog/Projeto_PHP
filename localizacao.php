@@ -2,7 +2,8 @@
 include("cabecalho_localizacao.php");
 include("navbar.php");
  ?>
-	<body style="background-image: url(https://i.pinimg.com/originals/37/32/9d/37329d3c14684b03701b11de0c07a085.jpg););">
+ 	<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-primary">Voltar ao topo</button>
+	<body style="background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/526920/7d3c2adfab2fa148b7b657e6af4a54413b71ab72.jpg););">
 	</body>
  <?php  
 include("rodape.php");

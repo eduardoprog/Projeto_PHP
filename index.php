@@ -2,7 +2,7 @@
 include("cabecalho_index.php");
 include("navbar.php");
  ?>
-	<body style="background-image: url(https://i.pinimg.com/originals/37/32/9d/37329d3c14684b03701b11de0c07a085.jpg););">
+	<body style="background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/526920/7d3c2adfab2fa148b7b657e6af4a54413b71ab72.jpg););">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
 		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -29,6 +29,7 @@ include("navbar.php");
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-primary">Voltar ao topo</button>
 		<div class="container-fluid">
 			<center>
 				<br>	
