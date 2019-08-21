@@ -143,8 +143,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript">
-	window.onscroll = function() {scrollFunction()};
-
 	function scrollFunction() {
 	  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
 	    document.getElementById("myBtn").style.display = "block";
@@ -157,5 +155,17 @@
 	  document.body.scrollTop = 0;
 	  document.documentElement.scrollTop = 0;
 	}
+	</script>
+	<script type="text/javascript">
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		  var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+		    document.getElementById("navbar").style.top = "0";
+		  } else {
+		    document.getElementById("navbar").style.top = "-50px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
 	</script>
 </html>

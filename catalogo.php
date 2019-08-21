@@ -33,7 +33,7 @@ include("navbar.php");
 				<div class="col-md-12">
 					<center>
 					<div class="jumbotron" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; height: 300px; background-image: url(imgs/catalog/jogos_bg.png);">
-						<h1 class="display-1" id="jogos">JOGOS</h1>
+						<h1 class="display-4" id="jogos">JOGOS</h1 class="display-4">
 					</div>
 					</center>	
 				</div>
@@ -118,7 +118,7 @@ include("navbar.php");
 				<div class="col-md-12">
 					<center>
 					<div class="jumbotron" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; height: 300px; background-image: url(imgs/catalog/consoles_bg.png);">
-						<h1 class="display-1" id="consoles" style="color: black;">CONSOLES</h1>
+						<h1 class="display-4" id="consoles" style="color: black;">CONSOLES</h1 class="display-4">
 					</div>
 					</center>	
 				</div>
@@ -149,7 +149,7 @@ include("navbar.php");
 				<div class="col-md-12">
 					<center>
 					<div class="jumbotron" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; height: 300px; background-image: url(imgs/catalog/acessorios_bg.png);">
-						<h1 class="display-1" id="acessorios">ACESSÓRIOS</h1>
+						<h1 class="display-4" id="acessorios">ACESSÓRIOS</h1 class="display-4">
 					</div>
 					</center>	
 				</div>
@@ -180,7 +180,7 @@ include("navbar.php");
 				<div class="col-md-12">
 					<center>
 					<div class="jumbotron" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; height: 300px; background-image: url(imgs/catalog/canecas_bg.png);">
-						<h1 class="display-1" id="canecas_copos">CANECAS E COPOS</h1>
+						<h1 class="display-4" id="canecas_copos">CANECAS E COPOS</h1 class="display-4">
 					</div>
 					</center>	
 				</div>
@@ -211,7 +211,7 @@ include("navbar.php");
 				<div class="col-md-12">
 					<center>
 					<div class="jumbotron" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; height: 300px; background-image: url(imgs/catalog/decor_bg.png);">
-						<h1 class="display-1" id="decor">DECORAÇÃO</h1>
+						<h1 class="display-4" id="decor">DECORAÇÃO</h1 class="display-4">
 					</div>
 					</center>	
 				</div>

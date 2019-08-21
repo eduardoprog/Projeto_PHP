@@ -42,7 +42,7 @@ include("navbar.php");
 						  <div class="card-body">
 						    <h5 class="card-title">SNES Classic</h5>
 						    <h5 class="card-body">R$ 399,99</h5>
-						    <p class="card-text">R$ 699,99</p>
+						    <del><p class="card-text">R$ 699,99</p></del>
 						    <a href="#" class="btn btn-primary">Saiba Mais!</a>
 						  </div>
 						</div>
@@ -53,7 +53,7 @@ include("navbar.php");
 						  <div class="card-body">
 						    <h5 class="card-title">PS1 Classic</h5>
 						    <h5 class="card-body">R$ 199,99</h5>
-						    <p class="card-text">R$ 599,99</p>
+						    <del><p class="card-text">R$ 599,99</p></del>
 						    <a href="#" class="btn btn-primary">Saiba Mais!</a>
 						  </div>
 						</div>
@@ -64,7 +64,7 @@ include("navbar.php");
 						  <div class="card-body">
 							<h5 class="card-title">Sega Genesis Flashback HD</h5>
 							<h5 class="card-title">R$399,99</h5>
-						    <p class="card-text">R$599,99</p>
+						   <del> <p class="card-text">R$599,99</p></del>
 						    <a href="#" class="btn btn-primary">Saiba Mais!</a>
 						  </div>
 						</div>
@@ -79,7 +79,7 @@ include("navbar.php");
 					  <div class="card-body">
 					    <h5 class="card-title">Famicom Classic</h5>
 					    <h5 class="card-title">R$299,99</h5>
-						    <p class="card-text">R$499,99</p>
+						    <del><p class="card-text">R$499,99</p></del>
 						    <a href="#" class="btn btn-primary">Saiba Mais!</a>
 					  </div>
 					</div>
@@ -90,7 +90,7 @@ include("navbar.php");
 					  <div class="card-body">
 					    <h5 class="card-title">Nintendo 64</h5>
 					    <h5 class="card-title">R$199,99</h5>
-						    <p class="card-text">R$699,99</p>
+						    <del><p class="card-text">R$699,99</p></del>
 						    <a href="#" class="btn btn-primary">Saiba Mais!</a>
 					  </div>
 					</div>
@@ -101,7 +101,7 @@ include("navbar.php");
 					  <div class="card-body">
 					    <h5 class="card-title">GameBoy Advance</h5>
 					    <h5 class="card-title">R$99,99</h5>
-						    <p class="card-text">R$199,99</p>
+						    <del><p class="card-text">R$199,99</p></del>
 						    <a href="#" class="btn btn-primary">Saiba Mais!</a>
 					  </div>
 					</div>
@@ -109,7 +109,7 @@ include("navbar.php");
 			</div><!-- FIM SEGUNDA LINHA DE PRODUTOS!-->
 			<br><!-- INÍCIO SEÇÃO DE NOVOS LANÇAMENTOS!-->
 			<div class="jumbotron" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; height: 300px; background-image: url(http://s4.thingpic.com/images/Xf/TrCtYh1zKfphdFXzWZZ2E8zU.jpeg); margin: 0px">
-				<h1 class="display-2" style="color: red;">PRÓXIMOS LANÇAMENTOS</h1>
+				<h1 class="display-3" style="color: white;">PRÓXIMOS LANÇAMENTOS</h1>
 			</div><!-- LINHA UM!-->
 			<div style="min-height: 300px; background-color: black;">
 				<div class="col-md-12">
