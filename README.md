@@ -20,7 +20,9 @@ E se der tempo, envio de e-mails e Gráficos
 
   - O cadastro de produtos, deverá ter os seguintes campos: nome – varchar(100), descricao – text, categoria – int, precoCompra – decimal     (8,2), precoVenda – decimal(8,2), fornecedor – int.
 
-  - O cadastro de categorias deverá ter os seguintes campos: nome – varchar(100), segmento – varchar(80), endereco (completo).
+  - O cadastro de categorias deverá ter os seguintes campos: nome – varchar(100), segmento – varchar(80).
+
+  - ERRATA: Acima, retirado endereço, pois esta informação seria usado se fosse no cadastro de Fornecedores, não existe motivo para estar     no cadastro de categorias.
 
   - Caso achem necessário, crie também um cadastro para fornecedores. Nosso site terá um sistema de busca para essa área.<br>
   - Mantenha uma cópia do projeto no GitHub para que evite perda desnecessária das informações e retrabalho.<br>
